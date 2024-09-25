@@ -11,10 +11,18 @@ int main(){
     printf("after: ");
     printTic(c);
 
+    
+    
+    
+    
     c = a;
     printf("forward: ");
     forward(&a, b);
     printTic(a);
+
+
+
+    
 
     printf("backward: ");
     backward(&c, b);
